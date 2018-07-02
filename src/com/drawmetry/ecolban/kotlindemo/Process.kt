@@ -1,5 +1,8 @@
 package com.drawmetry.ecolban.kotlindemo
 
+typealias Source<T> = () -> T
+typealias Sink<T> = (T) -> Unit
+
 class Process(private val source: Source<out String>, private val sink: Sink<in String>) : Runnable {
     private var isRunning: Boolean = false
     private var runner: Thread? = null
@@ -7,9 +10,9 @@ class Process(private val source: Source<out String>, private val sink: Sink<in 
     override fun run() {
         while (isRunning) {
             try {
-                val input = source.take()
+                val input = source()
                 val output = process(input)
-                sink.put(output)
+                sink(output)
             } catch (e: InterruptedException) {
                 if (isRunning) {
                     println("Process interrupted while still running.")
