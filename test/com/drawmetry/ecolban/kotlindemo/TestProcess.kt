@@ -15,8 +15,16 @@ class TestProcess {
         val inQ = ArrayBlockingQueue<String>(2)
         val outQ = ArrayBlockingQueue<Any>(2)
         inQ.put("Hello world")
-        val source = Source { inQ.take() }
-        val sink = Sink<Any> { outQ.put(it) }
+        val source = object : Source<String> {
+            override fun take(): String {
+                return inQ.take()
+            }
+        }
+        val sink = object : Sink<Any> {
+            override fun put(something: Any) {
+                outQ.put(something)
+            }
+        }
         val sut = Process(source, sink)
         sut.start()
         val s = outQ.take() as String

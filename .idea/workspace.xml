@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71cc45b7-ebee-428d-8b0e-c91c5ae0b30d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Process.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/drawmetry/ecolban/kotlindemo/TestProcess.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Process.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Sink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Sink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Source.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/drawmetry/ecolban/kotlindemo/TestProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/drawmetry/ecolban/kotlindemo/TestProcess.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/drawmetry/ecolban/kotlindemo/TestProcess.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,20 +25,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Source.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Source.java">
+          <file leaf-file-name="Source.kt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Source.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="90">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Sink.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Sink.java">
+          <file leaf-file-name="Sink.kt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Sink.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -52,7 +47,7 @@
             <entry file="file://$PROJECT_DIR$/test/com/drawmetry/ecolban/kotlindemo/TestProcess.kt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
-                  <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+                  <caret line="26" selection-start-line="26" selection-end-line="26" />
                 </state>
               </provider>
             </entry>
@@ -93,11 +88,11 @@
         <option value="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Process.java" />
         <option value="$PROJECT_DIR$/test/com/drawmetry/ecolban/kotlindemo/TestProcess.java" />
         <option value="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Process.kt" />
-        <option value="$PROJECT_DIR$/test/com/drawmetry/ecolban/kotlindemo/TestProcess.kt" />
-        <option value="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Source.kt" />
-        <option value="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Sink.kt" />
         <option value="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Sink.java" />
         <option value="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Source.java" />
+        <option value="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Source.kt" />
+        <option value="$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Sink.kt" />
+        <option value="$PROJECT_DIR$/test/com/drawmetry/ecolban/kotlindemo/TestProcess.kt" />
       </list>
     </option>
   </component>
@@ -362,6 +357,9 @@
     <history-entry file="TestProcess - 2018.07.01 at 20h 39m 59s.xml">
       <configuration name="TestProcess" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestProcess - 2018.07.01 at 20h 54m 12s.xml">
+      <configuration name="TestProcess" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1813" height="976" extended-state="0" />
@@ -400,7 +398,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Source.java">
+    <entry file="file://$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Source.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
@@ -428,6 +426,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Source.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Sink.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Process.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -435,24 +447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Sink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/drawmetry/ecolban/kotlindemo/Source.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/drawmetry/ecolban/kotlindemo/TestProcess.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
