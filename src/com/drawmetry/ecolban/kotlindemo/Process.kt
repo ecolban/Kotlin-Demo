@@ -3,7 +3,7 @@ package com.drawmetry.ecolban.kotlindemo
 typealias Source<T> = () -> T
 typealias Sink<T> = (T) -> Unit
 
-class Process(private val source: Source<out String>, private val sink: Sink<in String>) : Runnable {
+class Process(private val source: Source<String>, private val sink: Sink<String>) : Runnable {
     private var isRunning: Boolean = false
     private var runner: Thread? = null
 
@@ -22,13 +22,7 @@ class Process(private val source: Source<out String>, private val sink: Sink<in 
         }
     }
 
-    private fun process(input: String): String {
-        val sb = StringBuilder()
-        for (i in input.length - 1 downTo 0) {
-            sb.append(input[i])
-        }
-        return sb.toString()
-    }
+    private fun process(input: String) = input.reversed()
 
     @Synchronized
     fun start() {
